@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    padding:10px ;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top:-16px;
+ 
+}
+.icons{
+   display: flex;
+ 
+}
+#search{
+    background-color: rgb(240,240,240);
+    width: 27px;
+    height: 20px;
+    padding: 3px;
+    position: absolute;
+    left: 180px;
+}
+#searchBox{
+    width: 180px;
+    height: 25px;
+    outline: none;
+    border-color: darkgrey;
+}
+.search{
+    display: flex;
+    position: relative;
+}
+#video{
+    margin-top: 20px;
+}
+.content p{
+    margin-top: 10px;
+    font-weight: 500;
+}
+.content h3{
+    margin-top: 10px;
+    font-weight: 400;
+}
+.details{
+   
+    width: 500px;
+    height: 60px;
+   
+    display:flex;
+    align-items: center;
+    
+}
+.likes{
+    width: 70px ;
+    display: flex;
+    margin-right: 10px;
+    color: darkgrey;
+    align-items: center;
+    
+}
+.dislikes{
+    width: 70px;
+    display: flex;
+    color: darkgrey;
+    margin-right: 10px;
+    align-items: center;
+}
+.share{
+    width: 80px;
+    display: flex;
+    color: darkgrey;
+    align-items:center;
+}
+.save{
+    width: 50px;
+    color: rgb(109, 108, 108);
+}
+
+#like{
+    width: 30px;
+    height: 20px;
+   
+}
+#dislike{
+    width: 30px;
+    height: 20px;
+   
+}
+#share{
+    width: 20px;
+    height: 30px;
+}
+
+#save{
+    margin-left: 20px;
+}
+#line{
+    color: darkgrey;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.share p{
+    margin-left: 10px;
+    font-size: 14px;
+    
+}
+#channellogo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.channel{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.publish{
+    margin-left: 10px;
+}
+.publish span{
+    color: rgb(65, 60, 60);
+}
+#subscribe{
+    margin-left: 20px;
+    padding: 10px;
+}
+.subscribebtn{
+    padding: 5px;
+    color: rgb(84, 80, 80);
+}
+#bell{
+    width: 20px;
+    height: 20px;
+    color:  rgb(65, 60, 60);
+    padding:10px;
+    line-height: 20px;
+}
+.definition{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.contact-box{
+    min-height: 400px;
+    width: 700px;
+    padding: 20px;
+    background-color: #ad3528;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    border-radius: 3px;
+  }
+  .contact-box h2{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
+  .contact-box table{
+    width: 100%;
+  }
+  .contact-box table td{
+    padding: 10px 20px;
+  }
+  .contact-box table td input{
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    background: #f7f7f7;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .txtArea td label,
+  .txtArea td textarea
+  {
+    display:block;
+  }
+  .txtArea td textarea{
+    border: none;
+    outline: none;
+    background: #f7f7f7;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    height: 150px;
+    resize: none;
+  }
+  
+  .btnSend{
+    height: 35px;
+    width: 150px;
+    font-size: 16px;
+    font-weight:700;
+    border: none;
+    background: #2c3e50;
+    color:#fff;
+    padding: 5px 10px;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+  
+  .btnSend:hover{
+    background-color: rgba(52, 73, 94,1.0);
+  }
+  .personal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
